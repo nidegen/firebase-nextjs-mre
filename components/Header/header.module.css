@@ -1,0 +1,5 @@
+.navLink {
+  @apply hover:underline;
+  @apply text-lg;
+  @apply font-bold;
+}

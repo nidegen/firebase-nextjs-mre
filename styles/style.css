@@ -1,0 +1,60 @@
+/*--
+    Common Css
+--*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  /* @apply scroll-smooth; */
+  @apply h-full;
+}
+
+body {
+  @apply font-light;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  @apply antialiased;
+  @apply h-full;
+}
+
+#__next {
+  @apply h-full;
+  @apply flex;
+  @apply flex-col;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply m-0;
+}
+
+h1 {
+  @apply text-5xl;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+h3 {
+  @apply text-3xl;
+}
+
+h4 {
+  @apply text-2xl;
+}
+
+p {
+  @apply text-lg;
+}
+
+ul {
+  @apply p-0;
+  @apply m-0;
+  @apply list-none;
+}
